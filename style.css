@@ -75,5 +75,9 @@ select{
 }@media(width < 480px){
     .hero{
         text-align: center;
+        
+    }
+    .textarea{
+        max-width:100%;
     }
 }
