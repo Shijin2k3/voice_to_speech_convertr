@@ -26,7 +26,7 @@
     color: red;
 }
 textarea{
-    max-width: 600px;
+    max-width: 1200px;
     max-height: 250px;
     background: #403d84;
     border: 0;
@@ -43,7 +43,7 @@ textarea::placeholder{
     color: #fff;
 }
 .row{
-    max-width: 600px;
+    max-width: 1200px;
     display: flex;
     align-items: center;
     gap: 20px;
