@@ -68,3 +68,12 @@ select{
     outline: 0;
     border-radius: 35px;
 }
+@media(width < 600px){
+    .hero{
+        max-width:250px;
+        text-align: center;
+    }
+    textarea{
+        max-width:250px;
+    }
+}
