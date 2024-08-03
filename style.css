@@ -5,7 +5,7 @@
     font-family: 'Poppins',sans-serif;
 }
 .hero{
-    width: 100%;
+    max-width: 100%;
     min-height: 100vh;
     background: linear-gradient(45deg,#010758,#490d61);
     display: flex;
@@ -26,8 +26,8 @@
     color: red;
 }
 textarea{
-    width: 600px;
-    height: 250px;
+    max-width: 600px;
+    max-height: 250px;
     background: #403d84;
     border: 0;
     outline: 0;
@@ -43,7 +43,7 @@ textarea::placeholder{
     color: #fff;
 }
 .row{
-    width: 600px;
+    max-width: 600px;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -62,7 +62,7 @@ select{
     flex: 1;
     color: white;
     background: #403d84;
-    height: 50px;
+    max-height: 50px;
     padding: 0 20px;
     border: 0;
     outline: 0;
